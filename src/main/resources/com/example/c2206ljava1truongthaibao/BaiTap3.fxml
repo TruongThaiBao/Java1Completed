@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Polygon?>
+
+
+<BorderPane fx:id="borderPane" prefHeight="424.0" prefWidth="499.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.c2206ljava1truongthaibao.BaiTap3Controller">
+    <top>
+        <MenuBar prefHeight="22.0" prefWidth="22.0" BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem fx:id="mnclearAll" mnemonicParsing="false" onAction="#delShape" text="Clear All" />
+                        <MenuItem fx:id="mnExit" mnemonicParsing="false" onAction="#Exit" text="Exit" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Tool">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#openOption" text="Option..." />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+    <left>
+        <Polygon fx:id="item3" fill="DODGERBLUE" stroke="BLACK" strokeType="INSIDE" BorderPane.alignment="CENTER">
+            <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="-60.0" />
+            </points>
+        </Polygon>
+    </left>
+    <right>
+
+        <Polygon fx:id="item1" fill="DODGERBLUE" stroke="BLACK" strokeType="INSIDE" BorderPane.alignment="CENTER">
+            <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="-60.0" />
+            </points>
+        </Polygon>
+    </right>
+    <center>
+        <Polygon fx:id="item2" fill="DODGERBLUE" stroke="BLACK" strokeType="INSIDE" BorderPane.alignment="CENTER">
+            <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="-60.0" />
+            </points>
+        </Polygon>
+    </center>
+</BorderPane>
